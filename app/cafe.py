@@ -3,10 +3,11 @@ from app.errors import (
     NotVaccinatedError,
     OutdatedVaccineError,
     NotWearingMaskError,
+    VaccineError,
 )
 
 
-class Cafe():
+class Cafe:
 
     def __init__(self, name: str) -> None:
         self.name = name
