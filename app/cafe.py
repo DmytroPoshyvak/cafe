@@ -3,7 +3,6 @@ from app.errors import (
     NotVaccinatedError,
     OutdatedVaccineError,
     NotWearingMaskError,
-    VaccineError,
 )
 
 
